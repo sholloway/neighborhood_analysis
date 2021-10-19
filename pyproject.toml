@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "mn_neighborhoods"
+version = "0.1.0"
+description = "Geospatial analysis of Minnesota neighborhoods"
+authors = ["Samuel Holloway <sholloway@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+jupyter = "^1.0.0"
+ipykernel = "^6.3.1"
+geopandas = "^0.10.1"
+matplotlib = "^3.4.3"
+folium = "^0.12.1"
+mapclassify = "^2.4.3"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
